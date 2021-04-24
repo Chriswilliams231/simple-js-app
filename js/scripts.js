@@ -100,7 +100,7 @@ let pokemonRepository = (function () {
         );
         imageAnimated.attr("src", pokemon.imageUrlAnimated);
         let modalProfile = $(
-            '<h4 style="background-color:#d88780; padding: 5px; color: white;">Profile</h4>'
+            '<h4 style="background-color:#2f31b6; padding: 5px; color: white;">Profile</h4>'
         );
         let pokemonHeight = $(
             "<p>" + "<strong>Height</strong>: " + pokemon.height + '"' + "</p>"

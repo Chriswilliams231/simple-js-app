@@ -1,20 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+  background-color:#D9DDE0 ;
+}
 .modal-body {
   display: inline-block;
   text-align: center;
 }
 
 .navbar {
-  background-color: #cc0000;
+  background-color: #2f31b6;
   color: white;
 }
 
 .poke-text {
-  font-size: 150px;
+  font-size: 90px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.btn {
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 400px;
+  transition-duration: 0.4s;
+}
+.btn :hover {
+  background-color:red ;
+  cursor: pointer;
 }
 
 #myInput {
+  border: 2px solid black;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 800px;
+  border-radius:10px ;
+  font-size: 30px;
+  padding: 5px;
+
 }
 
 .card-img-top {
@@ -23,3 +44,4 @@
   height: 150px;
   margin-top: 15px;
 }
+
