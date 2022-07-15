@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
 body {
-  background-color:#D9DDE0 ;
+  background-color: #d9dde0;
 }
 .modal-body {
   display: inline-block;
@@ -14,8 +14,8 @@ body {
 }
 
 .poke-text {
-  font-size: 90px;
-  font-family: 'Ubuntu', sans-serif;
+  font-size: 60px;
+  font-family: "Ubuntu", sans-serif;
 }
 .btn {
   border-radius: 10px;
@@ -24,7 +24,7 @@ body {
   transition-duration: 0.4s;
 }
 .btn :hover {
-  background-color:red ;
+  background-color: red;
   cursor: pointer;
 }
 
@@ -32,10 +32,9 @@ body {
   border: 2px solid black;
   margin-top: 10px;
   margin-left: 800px;
-  border-radius:10px ;
+  border-radius: 10px;
   font-size: 30px;
   padding: 5px;
-
 }
 
 .card-img-top {
@@ -44,4 +43,3 @@ body {
   height: 150px;
   margin-top: 15px;
 }
-
